@@ -11,24 +11,24 @@ This project focuses on analyzing student scores using various data analysis tec
 
 
 # Project Structure
- 1.data: This directory contains the dataset used for analysis.
+ __1.data:__ This directory contains the dataset used for analysis.
 
- 2.notebooks: Jupyter notebooks with code and visualizations.
+ __2.notebooks:__ Jupyter notebooks with code and visualizations.
 
- 3.scripts: Python scripts used for data processing and analysis.
+ __3.scripts:__ Python scripts used for data processing and analysis.
 
 
 # Dependencies
 
 The project requires the following Python libraries:
 
-1.NumPy: For numerical operations and handling    arrays.
+__1.NumPy:__ For numerical operations and handling    arrays.
 
-2.Pandas: For data manipulation and analysis.
+__2.Pandas:__ For data manipulation and analysis.
 
-3.Seaborn: For creating statistical visualizations.
+__3.Seaborn:__ For creating statistical visualizations.
 
-4.Matplotlib: For plotting graphs and visualizations.
+__4.Matplotlib:__ For plotting graphs and visualizations.
 
 
 
@@ -37,33 +37,34 @@ The project requires the following Python libraries:
 
 # Data Preprocessing
 
-## 1. Data Cleaning
-Handling Missing Values: Missing data is imputed or removed to ensure the dataset is complete and consistent.
+## Data Cleaning
+__Handling Missing Values:__ Missing data is imputed or removed to ensure the dataset is complete and consistent.
+We used Measures of central tendency,Random Value imputation and Predictive models for Handling Missing values.
 
-We used Measures of central tendency,Random Value imputation and Predictive models for Handling Missing values 
 
-
-Outlier Detection: Outliers are identified and handled using statistical methods to ensure they do not skew the analysis.
-
-We used Boundary value , IQR and percentile method to handle Outliers
+__Outlier Detection:__ Outliers are identified and handled using statistical methods to ensure they do not skew the analysis.
+We used Boundary value , IQR and percentile method to handle Outliers.
 
 # Data Analysis
 ## 1. Descriptive Statistics
 Summary Statistics: Basic statistics like mean, median, and standard deviation are calculated to understand the distribution of scores.
 
 ## 2. Visualizations
-Histograms and Boxplots: Used to visualize the distribution of scores and identify outliers.
+__Histograms and Boxplots:__ Used to visualize the distribution of scores and identify outliers.
 
-Correlation Heatmaps: Created using Seaborn to understand relationships between different variables.Pie charts for understanding proportions.
+__Correlation Heatmaps:__ Created using Seaborn to understand relationships between different variables.Pie charts for understanding proportions.
 
 ## 3. Insights and Interpretations
-Trend Analysis: Analyzing trends in student performance over time or across different groups.
+__Trend Analysis:__ Analyzing trends in student performance over time or across different groups.
 
-Comparative Analysis: Comparing scores based on different categories like gender, class, or subject.
+__Comparative Analysis:__ Comparing scores based on different categories like gender, class, or subject.
+
+![Screenshot 2024-08-23 021703](https://github.com/user-attachments/assets/804cda12-1392-433d-83b1-885bad200f62)
+
+
 
 
 # Conclusion 
 This student scores analysis project provided valuable insights into the factors influencing academic performance of students.
-
-We analyzed that in which tests students have highest and lowest average scores depending upon their gender,study hours,sports related activities
+We analyzed that in which tests students have highest and lowest average scores depending upon their gender,study hours,sports related activities.
 
